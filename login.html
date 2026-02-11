@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
-   <form id="login">
-    <label for="email">email</label>
-    <input id="email" name="email" type="email">
-    <br>
-    <label for= "password">password</label>
-    <input id= "password" name="password" type="password">
-    <br>
-    <button type="submit">login</button>
-   </form> 
-</body>
+    <div class="card">
+        <h2 class="brand">Welcome Back</h2>
+        <p class="subtitle">Login to your account</p>
+        <form id="login">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email">
 
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+
+            <button type="submit">Login</button>
+        </form>
+        <p class="muted-center" style="margin-top:10px">Don't have an account? <a href="signin.html">Sign up</a></p>
+    </div>
+</body>
 </html>

@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Sign Up</title>
 </head>
 <body>
-    <form id="signin ">
-        <label for="first">First name</label>
-        <input id="first"name="first name" type="text">
-        <br><bR>
-            <label for="second">second name</label>
-            <input id="second" name="second name" type="text ">
-            <br>
-            <label for="email">email</label>
-            <input id="email" name="email" type="email">
-            <br>
-            <label for="contact no.">contact no</label>
-            <input id="contact no" name="contact no" type="number">
-            <br>
-            <button type="submit">submit</button>
-        </form>
-</body>
+    <div class="card">
+        <h2 class="brand">Create Account</h2>
+        <p class="subtitle">Join us — it's quick and delightful</p>
+        <form id="signin">
+            <label for="first">First name</label>
+            <input id="first" name="first" type="text">
 
+            <label for="second">Last name</label>
+            <input id="second" name="last" type="text">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email">
+
+            <label for="contact">Contact no</label>
+            <input id="contact" name="contact" type="number">
+
+            <button type="submit">Create account</button>
+        </form>
+        <p class="muted-center" style="margin-top:10px">Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</body>
 </html>
